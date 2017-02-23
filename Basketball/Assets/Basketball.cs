@@ -25,7 +25,7 @@ public class Basketball : MonoBehaviour {
 				hitSomething = true;
 				gotRightTarget = true;
 				score++;
-			} else if (collider.tag == "WrongTarget") {
+			} else if (collider.tag == "Floor") {
 				hitSomething = true;
 				gotRightTarget = false;
 			}
